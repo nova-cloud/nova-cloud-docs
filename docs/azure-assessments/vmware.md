@@ -40,9 +40,9 @@ Para hacer descubrimieto de aplicaciones que corren en las VMs se necesita el us
 
 
 2. Importamos la imagen
-![Deploy OVF Template](../../images/vmware-20201211-123546.png) 
+![Deploy OVF Template](../images/vmware-20201211-123546.png) 
 
-<img src="../../images/vmware-20201211-124441.png" width="500px">  
+<img src="../images/vmware-20201211-124441.png" width="500px">  
 
 3. Configuramos los recursos para el appliance con:
 - 32GB RAM
@@ -50,7 +50,7 @@ Para hacer descubrimieto de aplicaciones que corren en las VMs se necesita el us
 - 80GB de disco
 - Red: se necesita salida a internet para conectarse a Azure pero no se requiere IP público en el appliance.
 
-<img src="../../images/vmware-20201211-125032.png" width="600px">
+<img src="../images/vmware-20201211-125032.png" width="600px">
 
 &emsp;
 
@@ -64,21 +64,21 @@ También nos podemos conectar por escritorio remoto (RDP) en el puerto 3389 del 
 
 Con esto, iniciamos la configuración aceptando los términos de licencia.
 
-![Configuración appliance Azure Migrate](../../images/vmware-20201211-034020.png)  
+![Configuración appliance Azure Migrate](../images/vmware-20201211-034020.png)  
 
 5. El appliance se conectará a Azure para descargar actualizaciones si lo requiere y pedirá instalar el **vSphere Virtual Disk Development Kit** (si no se ha instalado anteriormente).
 
-![Instalar el vSphere Virtual Disk Development Kit](../../images/vmware-20201211-042526.png)  
+![Instalar el vSphere Virtual Disk Development Kit](../images/vmware-20201211-042526.png)  
 
 6. Una vez instalado el Kit, registramos el appliance con Azure. 
 
     *Este paso lo realiza personal de Nova Cloud / Condor Comunicaciones*.
 
-![Registrar con Azure](../../images/vmware-20201211-043636.png)  
+![Registrar con Azure](../images/vmware-20201211-043636.png)  
 
 7. Nos conectamos al servidor **IP del servidor vCenter** con **usuario con permisos de lectura** que creamos al inicio.
 
-![Conexión al vCenter Server](../../images/vmware-20201211-045404.png)  
+![Conexión al vCenter Server](../images/vmware-20201211-045404.png)  
 
 
 
@@ -86,15 +86,15 @@ Con esto, iniciamos la configuración aceptando los términos de licencia.
 8. Descubrimiento de aplicaciones y dependencias. Este paso es opcional pero recomendado. Se debe de agregar **credenciales de administrador para las VMs** que vamos a descubrir tanto para Windows (usuario Administrador) como para Linux (usuario root).
 
 
-![Agregar credenciales de administrador para VMs](../../images/vmware-20201211-045556.png)  
+![Agregar credenciales de administrador para VMs](../images/vmware-20201211-045556.png)  
 
-![Credenciales de Windows para las VMs](../../images/vmware-20201211-045630.png)  
+![Credenciales de Windows para las VMs](../images/vmware-20201211-045630.png)  
 
 Podemos agregar todas las credenciales que necesitemos una por una para el descubrimiento de apliaciones en las VMs.
 
 9. Con las credenciales agregadas, iniciamos el descubrimiento.
 
-![Iniciamos descubrimiento de VMs](../../images/vmware-20201211-050438.png)  
+![Iniciamos descubrimiento de VMs](../images/vmware-20201211-050438.png)  
 
 
 
