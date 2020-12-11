@@ -42,16 +42,13 @@ Para hacer descubrimieto de aplicaciones que corren en las VMs se necesita el us
 2. Importamos la imagen
 ![Deploy OVF Template](../../images/vmware-20201211-123546.png) 
 
+<img src="../../images/vmware-20201211-124441.png" width="500px">  
+
 3. Configuramos los recursos para el appliance con:
 - 32GB RAM
 - 8 vCPUs
 - 80GB de disco
 - Red: se necesita salida a internet para conectarse a Azure pero no se requiere IP público en el appliance.
-
-
-<img src="../../images/vmware-20201211-124441.png" width="500px">  
-
-&emsp;
 
 <img src="../../images/vmware-20201211-125032.png" width="600px">
 
