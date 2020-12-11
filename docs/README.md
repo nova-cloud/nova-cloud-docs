@@ -2,4 +2,4 @@
 ## Documentación y guías de configuración 
 
 ### Azure Assessments
-#### [VMware](docs/azure-assessments/vmware.md)
+#### [VMware](/azure-assessments/vmware.md)
