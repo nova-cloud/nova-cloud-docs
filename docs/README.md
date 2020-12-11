@@ -1,3 +1,3 @@
-# Documentación y guías de configuración Nova Cloud
-* auto-gen TOC:
-{:toc}
+# Nova Cloud - División tecnológica de Condor Comunicaciones
+## Documentación y guías de configuración 
+
