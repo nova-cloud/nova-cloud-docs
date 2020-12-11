@@ -1,3 +1,4 @@
+* auto-gen TOC:
 {:toc}
 
 # Requerimientos
