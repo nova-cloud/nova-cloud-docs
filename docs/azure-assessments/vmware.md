@@ -72,7 +72,7 @@ Con esto, iniciamos la configuración aceptando los términos de licencia.
 
 6- Una vez instalado el Kit, registramos el appliance con Azure. 
 
-    *Este paso lo realiza personal de Nova Cloud / Condor Comunicaciones*.
+*Este paso lo realiza personal de Nova Cloud / Condor Comunicaciones*.
 
 ![Registrar con Azure](../images/vmware-20201211-043636.png)  
 
